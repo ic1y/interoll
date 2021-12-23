@@ -1,0 +1,38 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+  overflow: hidden;
+  color-scheme: dark;
+  -webkit-text-size-adjust: 100%;
+  font-size: 24px;
+  overflow: none;
+}
+#ovl {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  height:  100vh;
+  width: 100vw;
+}
+#container {
+  display: none;
+  justify-content: center; 
+  align-items: center;
+  pointer-events: none;
+  height: 100vh;
+  width: 100vw;
+}
+#vid {
+  height: 100vh;
+  width: 100vw;
+}
+@media (prefers-color-scheme: light) {
+  html {background-color: #f0f0f0; color: #0f0f0f; color-scheme: light;}
+}
