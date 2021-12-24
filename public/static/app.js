@@ -16,7 +16,7 @@ function roll() {
 	rfs();
 	vid.play();
 }
-var listeners = ['click', 'keydown', 'contextmenu','selectstart', 'touchstart', 'dragstart'];
+var listeners = ['click', 'keydown', 'keyup', 'contextmenu','selectstart', 'touchstart', 'dragstart', 'mousedown'];
 listeners.forEach(evt => {
 	window.addEventListener(evt, (e) => {
 		e.preventDefault();
