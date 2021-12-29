@@ -1,5 +1,5 @@
-# interoll
+# rickroll
 
-interoll is a website you can use to rickroll people.
+A webpage link you can display on your profile, send to your contacts to rickroll them.
 
-[site link](https://kinews.vercel.app/)
+[Site link](https://rkrl.vercel.app/)
