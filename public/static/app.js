@@ -1,4 +1,6 @@
-const container = document.getElementById('container'),vid = document.getElementById('vid'),ovl =document.getElementById('ovl');
+const container = document.getElementById('container'),
+vid = document.getElementById('vid'),
+tx = document.getElementById('tx');
 function rfs() {
 	if (vid.requestFullscreen) {
 		vid.requestFullscreen();
@@ -11,7 +13,7 @@ function rfs() {
 	}
 }
 function roll() {
-	ovl.style.display = 'none';
+	tx.style.display = 'none';
 	container.style.display = 'flex';
 	rfs();
 	vid.play();
